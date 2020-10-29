@@ -16,7 +16,8 @@ jobs:
       run: |
         sudo apt update
         sudo apt -y install build-essential tree
-        sudo cpan install 
+
+    
 
     - name: Test
       run: |
